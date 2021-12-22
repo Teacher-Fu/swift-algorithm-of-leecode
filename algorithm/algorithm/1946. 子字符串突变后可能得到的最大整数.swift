@@ -58,23 +58,29 @@ change.length == 10
 
 /*
  解析:
- 1.遍历字符串i, num[i] 与change[num[i]]
- 时间复杂度O(<#n#>)
- 空间复杂度O(<#n#>)
+ 1.通过常识，可以发现越前面的数字change成更大的，整体数字就更大。所以我们直接遍历看看从哪个数字开始能变大就好了。
+ 时间复杂度O(n)
+ 空间复杂度O(1)
  */
 func maximumNumber(_ num: String, _ change: [Int]) -> String {
-    var cuts = Array.init(repeating: -1, count: num.count)
-    for (index,char) in num.enumerated() {
+    
+    var ans = ""
+    var lemit = 0
+
+    for char in num {
         let ic = Int(String(char)) ?? 0
         let cut = change[ic] - ic
-        if cut >= 0 {
-            cuts[index] = cut
+        if cut > 0 && lemit < 2 {
+            ans += "\(change[ic])"
+            lemit = 1
+        } else if cut == 0 {
+            ans += String(char)
+        } else {
+            ans += String(char)
+            if lemit == 1 {
+                lemit = 2
+            }
         }
     }
-    
-    for cut in cuts {
-        
-    }
-    
-    return
+    return ans
 }

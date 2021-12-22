@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87915E852772FFCD00342F19 /* 482. 密钥格式化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E802772FFCD00342F19 /* 482. 密钥格式化.swift */; };
+		87915E862772FFCD00342F19 /* 1154. 一年中的第几天.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E812772FFCD00342F19 /* 1154. 一年中的第几天.swift */; };
+		87915E872772FFCD00342F19 /* 522. 最长特殊序列 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E822772FFCD00342F19 /* 522. 最长特殊序列 II.swift */; };
+		87915E882772FFCD00342F19 /* 476. 数字的补数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E832772FFCD00342F19 /* 476. 数字的补数.swift */; };
+		87915E892772FFCD00342F19 /* 1375. 二进制字符串前缀一致的次数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E842772FFCD00342F19 /* 1375. 二进制字符串前缀一致的次数.swift */; };
 		BABD8191276F28650007A289 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD8190276F28650007A289 /* main.swift */; };
-		BABD8198276F28820007A289 /* 0997. 找到小镇的法官.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD8197276F28820007A289 /* 0997. 找到小镇的法官.swift */; };
+		BABD8198276F28820007A289 /* 997. 找到小镇的法官.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD8197276F28820007A289 /* 997. 找到小镇的法官.swift */; };
 		BABD819A276F2C940007A289 /* 1726. 同积元组.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD8199276F2C940007A289 /* 1726. 同积元组.swift */; };
 		BABD819C276F4AEA0007A289 /* 1946. 子字符串突变后可能得到的最大整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD819B276F4AEA0007A289 /* 1946. 子字符串突变后可能得到的最大整数.swift */; };
-		BABD819E2770A56B0007A289 /* 0475. 供暖器.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD819D2770A56B0007A289 /* 0475. 供暖器.swift */; };
+		BABD819E2770A56B0007A289 /* 475. 供暖器.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD819D2770A56B0007A289 /* 475. 供暖器.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +32,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		87915E802772FFCD00342F19 /* 482. 密钥格式化.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "482. 密钥格式化.swift"; sourceTree = "<group>"; };
+		87915E812772FFCD00342F19 /* 1154. 一年中的第几天.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1154. 一年中的第几天.swift"; sourceTree = "<group>"; };
+		87915E822772FFCD00342F19 /* 522. 最长特殊序列 II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "522. 最长特殊序列 II.swift"; sourceTree = "<group>"; };
+		87915E832772FFCD00342F19 /* 476. 数字的补数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "476. 数字的补数.swift"; sourceTree = "<group>"; };
+		87915E842772FFCD00342F19 /* 1375. 二进制字符串前缀一致的次数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1375. 二进制字符串前缀一致的次数.swift"; sourceTree = "<group>"; };
 		BABD818D276F28650007A289 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABD8190276F28650007A289 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		BABD8197276F28820007A289 /* 0997. 找到小镇的法官.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0997. 找到小镇的法官.swift"; sourceTree = "<group>"; };
+		BABD8197276F28820007A289 /* 997. 找到小镇的法官.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "997. 找到小镇的法官.swift"; sourceTree = "<group>"; };
 		BABD8199276F2C940007A289 /* 1726. 同积元组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1726. 同积元组.swift"; sourceTree = "<group>"; };
 		BABD819B276F4AEA0007A289 /* 1946. 子字符串突变后可能得到的最大整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1946. 子字符串突变后可能得到的最大整数.swift"; sourceTree = "<group>"; };
-		BABD819D2770A56B0007A289 /* 0475. 供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "0475. 供暖器.swift"; sourceTree = "<group>"; };
+		BABD819D2770A56B0007A289 /* 475. 供暖器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "475. 供暖器.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +76,15 @@
 			isa = PBXGroup;
 			children = (
 				BABD8190276F28650007A289 /* main.swift */,
-				BABD8197276F28820007A289 /* 0997. 找到小镇的法官.swift */,
+				BABD819D2770A56B0007A289 /* 475. 供暖器.swift */,
+				87915E832772FFCD00342F19 /* 476. 数字的补数.swift */,
+				87915E802772FFCD00342F19 /* 482. 密钥格式化.swift */,
+				87915E822772FFCD00342F19 /* 522. 最长特殊序列 II.swift */,
+				BABD8197276F28820007A289 /* 997. 找到小镇的法官.swift */,
+				87915E812772FFCD00342F19 /* 1154. 一年中的第几天.swift */,
+				87915E842772FFCD00342F19 /* 1375. 二进制字符串前缀一致的次数.swift */,
 				BABD8199276F2C940007A289 /* 1726. 同积元组.swift */,
 				BABD819B276F4AEA0007A289 /* 1946. 子字符串突变后可能得到的最大整数.swift */,
-				BABD819D2770A56B0007A289 /* 0475. 供暖器.swift */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -132,11 +147,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87915E892772FFCD00342F19 /* 1375. 二进制字符串前缀一致的次数.swift in Sources */,
+				87915E872772FFCD00342F19 /* 522. 最长特殊序列 II.swift in Sources */,
 				BABD8191276F28650007A289 /* main.swift in Sources */,
+				87915E852772FFCD00342F19 /* 482. 密钥格式化.swift in Sources */,
+				87915E862772FFCD00342F19 /* 1154. 一年中的第几天.swift in Sources */,
 				BABD819C276F4AEA0007A289 /* 1946. 子字符串突变后可能得到的最大整数.swift in Sources */,
+				87915E882772FFCD00342F19 /* 476. 数字的补数.swift in Sources */,
 				BABD819A276F2C940007A289 /* 1726. 同积元组.swift in Sources */,
-				BABD819E2770A56B0007A289 /* 0475. 供暖器.swift in Sources */,
-				BABD8198276F28820007A289 /* 0997. 找到小镇的法官.swift in Sources */,
+				BABD819E2770A56B0007A289 /* 475. 供暖器.swift in Sources */,
+				BABD8198276F28820007A289 /* 997. 找到小镇的法官.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VUVSMHWDF2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -275,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VUVSMHWDF2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

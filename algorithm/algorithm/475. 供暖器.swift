@@ -46,14 +46,43 @@ import Foundation
     
 /*
  解析:
- 二分查找
- 
- 时间复杂度O(<#n#>)
- 空间复杂度O(<#n#>)
+ 二分查找 + 排序
+ 1.供暖器并未排序，先对供暖器排序
+ 2.遍历 houses 找出每个house最近的供暖器（排序供暖器 二分查找） 此时的半径为供暖器 到 house 的距离
+ 3.比较该距离与最大半径的距离取最大
+
+ 时间复杂度O((n+m)logn)
+ 空间复杂度O(logn) 其中 n 是数组 heaters 的长度。空间复杂度主要取决于排序所需要的空间。
  */
 func findRadius(_ houses: [Int], _ heaters: [Int]) -> Int {
-    
-    for house in houses {
-        
+    func binarySearch(_ houses: Int, _ heaters: [Int]) -> Int {
+        var left = 0
+        var right = heaters.count - 1
+        if heaters[left] > houses {
+            return -1
+        }
+        while left < right {
+            let mid = (right - left + 1) / 2 + left
+            if heaters[mid] > houses {
+                right = mid - 1;
+            } else {
+                left = mid
+            }
+        }
+        return left
     }
+    
+    var ans = 0
+    let heaters = heaters.sorted()
+    for house in houses {
+        let i = binarySearch(house, heaters)
+        let j = i + 1
+        let leftDistance = i < 0 ? Int.max : house - heaters[i]
+        let rightDistance = j >= heaters.count ? Int.max : heaters[j] - house
+        let curDistance = min(leftDistance, rightDistance)
+        ans = max(ans, curDistance)
+    }
+    return ans
 }
+
+
