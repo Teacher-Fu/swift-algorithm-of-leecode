@@ -34,5 +34,5 @@ import Foundation
  */
 
 func longestDupSubstring(_ s: String) -> String {
-
+    return ""
 }
