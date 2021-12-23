@@ -48,7 +48,7 @@ a 和 b 由小写英文字母组成
  解析：
  由题目可知 a 翻转后的长度 >= b
  a的前缀不相等的长度 + 后面的长度 >= b
- b 无法从第一个叠加的 a 开始匹配成功 或者 A叠加后的长度 大于 B 的两倍，还不存在 则返回 -1
+ b 无法从第一个叠加的 a 开始匹配成功 既 newa.count >= b.count + a.count 还没有找到就是 -1
  字符串匹配 直接 kmp
  时间：O(n+m)
  空间：O(1)
@@ -60,7 +60,7 @@ func repeatedStringMatch(_ a: String, _ b: String) -> Int {
     
     var tes = ""
     var res = 0
-    while tes.count <= bCount || res <= 2 {
+    while tes.count <= bCount + a.count {
         res += 1
         tes.append(contentsOf: a)
         if tes.count < bCount {
