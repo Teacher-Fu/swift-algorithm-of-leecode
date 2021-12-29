@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878A3B58277C0410001CE973 /* 剑指 Offer II 072. 求平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A3B57277C0410001CE973 /* 剑指 Offer II 072. 求平方根.swift */; };
 		87915E852772FFCD00342F19 /* 482. 密钥格式化.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E802772FFCD00342F19 /* 482. 密钥格式化.swift */; };
 		87915E862772FFCD00342F19 /* 1154. 一年中的第几天.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E812772FFCD00342F19 /* 1154. 一年中的第几天.swift */; };
 		87915E872772FFCD00342F19 /* 522. 最长特殊序列 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87915E822772FFCD00342F19 /* 522. 最长特殊序列 II.swift */; };
@@ -18,6 +19,7 @@
 		879AAD7B277473AA000E179A /* 5. 最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AAD7A277473AA000E179A /* 5. 最长回文子串.swift */; };
 		879AAD7D2774772E000E179A /* 70. 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AAD7C2774772E000E179A /* 70. 爬楼梯.swift */; };
 		879AAD7F27747D16000E179A /* 53. 最大子数组和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AAD7E27747D16000E179A /* 53. 最大子数组和.swift */; };
+		879AAD8127756618000E179A /* 1705. 吃苹果的最大数目.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AAD8027756618000E179A /* 1705. 吃苹果的最大数目.swift */; };
 		BABD8191276F28650007A289 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD8190276F28650007A289 /* main.swift */; };
 		BABD8198276F28820007A289 /* 997. 找到小镇的法官.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD8197276F28820007A289 /* 997. 找到小镇的法官.swift */; };
 		BABD819A276F2C940007A289 /* 1726. 同积元组.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD8199276F2C940007A289 /* 1726. 同积元组.swift */; };
@@ -38,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		878A3B57277C0410001CE973 /* 剑指 Offer II 072. 求平方根.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer II 072. 求平方根.swift"; sourceTree = "<group>"; };
 		87915E802772FFCD00342F19 /* 482. 密钥格式化.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "482. 密钥格式化.swift"; sourceTree = "<group>"; };
 		87915E812772FFCD00342F19 /* 1154. 一年中的第几天.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1154. 一年中的第几天.swift"; sourceTree = "<group>"; };
 		87915E822772FFCD00342F19 /* 522. 最长特殊序列 II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "522. 最长特殊序列 II.swift"; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		879AAD7A277473AA000E179A /* 5. 最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5. 最长回文子串.swift"; sourceTree = "<group>"; };
 		879AAD7C2774772E000E179A /* 70. 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70. 爬楼梯.swift"; sourceTree = "<group>"; };
 		879AAD7E27747D16000E179A /* 53. 最大子数组和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53. 最大子数组和.swift"; sourceTree = "<group>"; };
+		879AAD8027756618000E179A /* 1705. 吃苹果的最大数目.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1705. 吃苹果的最大数目.swift"; sourceTree = "<group>"; };
 		BABD818D276F28650007A289 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABD8190276F28650007A289 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BABD8197276F28820007A289 /* 997. 找到小镇的法官.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "997. 找到小镇的法官.swift"; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			children = (
 				BABD8190276F28650007A289 /* main.swift */,
 				879AAD78277465A1000E179A /* 面试题 16.05. 阶乘尾数.swift */,
+				878A3B57277C0410001CE973 /* 剑指 Offer II 072. 求平方根.swift */,
 				879AAD7A277473AA000E179A /* 5. 最长回文子串.swift */,
 				879AAD7E27747D16000E179A /* 53. 最大子数组和.swift */,
 				879AAD7C2774772E000E179A /* 70. 爬楼梯.swift */,
@@ -101,6 +106,7 @@
 				879AAD7627741677000E179A /* 1044. 最长重复子串.swift */,
 				87915E812772FFCD00342F19 /* 1154. 一年中的第几天.swift */,
 				87915E842772FFCD00342F19 /* 1375. 二进制字符串前缀一致的次数.swift */,
+				879AAD8027756618000E179A /* 1705. 吃苹果的最大数目.swift */,
 				BABD8199276F2C940007A289 /* 1726. 同积元组.swift */,
 				BABD819B276F4AEA0007A289 /* 1946. 子字符串突变后可能得到的最大整数.swift */,
 			);
@@ -175,7 +181,9 @@
 				87915E862772FFCD00342F19 /* 1154. 一年中的第几天.swift in Sources */,
 				879AAD7F27747D16000E179A /* 53. 最大子数组和.swift in Sources */,
 				BABD819C276F4AEA0007A289 /* 1946. 子字符串突变后可能得到的最大整数.swift in Sources */,
+				878A3B58277C0410001CE973 /* 剑指 Offer II 072. 求平方根.swift in Sources */,
 				879AAD7D2774772E000E179A /* 70. 爬楼梯.swift in Sources */,
+				879AAD8127756618000E179A /* 1705. 吃苹果的最大数目.swift in Sources */,
 				87915E8B27731DA400342F19 /* 686. 重复叠加字符串匹配.swift in Sources */,
 				87915E882772FFCD00342F19 /* 476. 数字的补数.swift in Sources */,
 				BABD819A276F2C940007A289 /* 1726. 同积元组.swift in Sources */,
