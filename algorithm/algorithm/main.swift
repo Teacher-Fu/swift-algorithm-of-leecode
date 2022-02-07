@@ -7,8 +7,20 @@
 
 import Foundation
 
+// MARK: - 507. 完美数
+var checkPerfectNumberArr: [Int] = []
+for i in 2...100000000 {
+    if checkPerfectNumber(i) {
+        checkPerfectNumberArr.append(i)
+    }
+}
+print(checkPerfectNumberArr)
+
+// MARK: - 1995. 统计特殊四元组
+//print(countQuadruplets2([1,2,3,6]))
+
 // MARK: - 53. 最大子数组和
-print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+//print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
 
 
 // MARK: - 686. 重复叠加字符串匹配
