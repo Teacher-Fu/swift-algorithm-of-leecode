@@ -7,14 +7,18 @@
 
 import Foundation
 
+// MARK: - 1405. 最长快乐字符串
+
+print(longestDiverseString(1, 1, 7))
+
 // MARK: - 507. 完美数
-var checkPerfectNumberArr: [Int] = []
-for i in 2...100000000 {
-    if checkPerfectNumber(i) {
-        checkPerfectNumberArr.append(i)
-    }
-}
-print(checkPerfectNumberArr)
+//var checkPerfectNumberArr: [Int] = []
+//for i in 2...100000000 {
+//    if checkPerfectNumber(i) {
+//        checkPerfectNumberArr.append(i)
+//    }
+//}
+//print(checkPerfectNumberArr)
 
 // MARK: - 1995. 统计特殊四元组
 //print(countQuadruplets2([1,2,3,6]))
